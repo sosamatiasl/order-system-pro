@@ -11,6 +11,7 @@ Uso del Componente Core (OrderSystem.Core)
 La clase central es CalculadoraTotal, que debe ser inicializada con las estrategias de descuento disponibles.
 
 Clase "Pedido" --> Método principal "CalcularSubtotal()": Obtiene la suma de todos los DetallePedido antes de descuentos e impuestos.
+
 Clase "CalculadoraTotal" --> Método principal "CalcularTotal(Pedido pedido)": Calcula el valor final aplicando la Estrategia de Descuento definida en el Pedido y la Tasa de Impuestos fija.
 
 Consumo del Servicio (Ejemplo en una aplicación principal)
