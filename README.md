@@ -1,6 +1,6 @@
 # OrderSystem.Pro
 
-🧪 Manual de Usuario: Sistema de Pedidos y Pruebas Unitarias
+## 🧪 Manual de Usuario: Sistema de Pedidos y Pruebas Unitarias
 
 Este proyecto es una librería de clases, por lo que el manual se centra en cómo consumir la lógica y cómo ejecutar las pruebas de calidad.
 
@@ -14,7 +14,7 @@ Clase "Pedido" --> Método principal "CalcularSubtotal()": Obtiene la suma de to
 
 Clase "CalculadoraTotal" --> Método principal "CalcularTotal(Pedido pedido)": Calcula el valor final aplicando la Estrategia de Descuento definida en el Pedido y la Tasa de Impuestos fija.
 
-💻 Consumo del Servicio (Ejemplo en una aplicación principal)
+### 💻 Consumo del Servicio (Ejemplo en una aplicación principal)
 C#
 ```
 // 1. Configurar las estrategias disponibles
