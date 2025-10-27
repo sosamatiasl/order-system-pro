@@ -16,6 +16,7 @@ Clase "CalculadoraTotal" --> Método principal "CalcularTotal(Pedido pedido)": C
 
 💻 Consumo del Servicio (Ejemplo en una aplicación principal)
 C#
+```
 // 1. Configurar las estrategias disponibles
 var strategies = new List<IDescuentoStrategy>
 {
@@ -36,6 +37,7 @@ var pedido = new Pedido
 
 // 4. Obtener el resultado
 decimal total = calculadora.CalcularTotal(pedido);
+```
 
 Ejecución de Pruebas de Calidad (NUnit)
 La calidad del sistema se verifica ejecutando las pruebas unitarias.
