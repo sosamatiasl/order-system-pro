@@ -15,9 +15,8 @@ Clase **Pedido** --> Método principal **CalcularSubtotal()**: Obtiene la suma d
 Clase **CalculadoraTotal** --> Método principal **CalcularTotal(Pedido pedido)**: Calcula el valor final aplicando la Estrategia de Descuento definida en el Pedido y la Tasa de Impuestos fija.
 
 ### 💻 Consumo del Servicio (Ejemplo en una aplicación principal)
-**C#**
+####C#####
 ```
-title="<C#>"
 // 1. Configurar las estrategias disponibles
 var strategies = new List<IDescuentoStrategy>
 {
