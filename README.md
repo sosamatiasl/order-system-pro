@@ -39,7 +39,7 @@ var pedido = new Pedido
 decimal total = calculadora.CalcularTotal(pedido);
 ```
 
-Ejecución de Pruebas de Calidad (NUnit)
+### Ejecución de Pruebas de Calidad (NUnit)
 La calidad del sistema se verifica ejecutando las pruebas unitarias.
 1. Abrir Visual Studio: Cargue la solución OrderSystem.Pro.
 2. Acceder al Explorador de Pruebas: Vaya a Test (Prueba) → Test Explorer (Explorador de pruebas).
