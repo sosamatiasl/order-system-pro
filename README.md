@@ -17,6 +17,7 @@ Clase **CalculadoraTotal** --> Método principal **CalcularTotal(Pedido pedido)*
 ### 💻 Consumo del Servicio (Ejemplo en una aplicación principal)
 **C#**
 ```
+title="<C#>"
 // 1. Configurar las estrategias disponibles
 var strategies = new List<IDescuentoStrategy>
 {
