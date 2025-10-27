@@ -7,7 +7,7 @@ Este proyecto es una librería de clases, por lo que el manual se centra en cóm
 **Objetivo:**
 Demostrar la robustez y calidad de la lógica central de negocio (cálculo de totales, impuestos y descuentos) a través de pruebas unitarias exhaustivas.
 
-Uso del Componente Core (OrderSystem.Core) 
+### Uso del Componente Core (OrderSystem.Core) 
 La clase central es CalculadoraTotal, que debe ser inicializada con las estrategias de descuento disponibles.
 
 Clase "Pedido" --> Método principal "CalcularSubtotal()": Obtiene la suma de todos los DetallePedido antes de descuentos e impuestos.
